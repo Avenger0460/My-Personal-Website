@@ -7,10 +7,12 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+    margin: 0%;
+    padding: 0%;
 }
 .navbar {
     background-color: black;
-    padding: 10px 0px;
+    padding: 0px 0px 5px 0px;
 }
 .navbar ul {
     overflow: auto;
@@ -22,9 +24,9 @@ header{
     color: orangered;
     font-family: 'Architects Daughter', cursive;
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 35px;
     margin-left: 10px;
-    margin: 0px 20px;
+    margin: 0.5px 20px 5px 20px;
 }
 #homeMargin{
     margin-left: 700px;
@@ -38,21 +40,20 @@ header{
 }
 
 .navbar li a {
-    padding: 5px 3px;
-    padding-top: 20px;
+    padding: 5px 3px 5px 3px;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .navbar li a:hover {
     color: orangered;
-    border-bottom: 2px solid orangered;
+    border-bottom: 3px solid orangered;
 }
 #Home{
     display: flex;
     flex-flow: row wrap;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 #HomeDesc {
     box-sizing: border-box;
