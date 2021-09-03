@@ -1,14 +1,17 @@
 body {
-    background-color: rgb(151, 74, 64);
+    background-color: #362e2fee;
     height: 3444px;
     margin: 0%;
 }
-
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
 .navbar {
     background-color: black;
     padding: 10px 0px;
 }
-
 .navbar ul {
     overflow: auto;
     margin: 0%;
@@ -46,8 +49,12 @@ body {
     color: orangered;
     border-bottom: 2px solid orangered;
 }
-
-#Intro {
+#Home{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 100px;
+}
+#HomeDesc {
     box-sizing: border-box;
     background-color: #efdfc8;
     border: 2px solid white;
@@ -55,5 +62,14 @@ body {
     width: 600px;
     height: 300px;
     padding: 25px 40px;
-    margin: 100px 0px 0px 60px;
+    margin: 0px 0px 0px 150px;
+}
+#HomePic{
+    margin-left: 250px;
+}
+#HomePic img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
