@@ -1,5 +1,5 @@
 body {
-    background-color: #362e2fee;
+    background-color: #000000ee;
     height: 3444px;
     margin: 0%;
 }
@@ -22,14 +22,13 @@ header{
 #navName {
     float: left;
     color: orangered;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
     font-weight: 700;
     font-size: 35px;
-    margin-left: 10px;
-    margin: 0.5px 20px 5px 20px;
+    margin: 5px 20px 5px 10px;
 }
 #homeMargin{
-    margin-left: 700px;
+    margin-left: 550px;
 }
 
 .navbar li {
